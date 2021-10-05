@@ -1,0 +1,55 @@
+
+body{
+        background: #90E2E7;
+        text-align: center;
+        font-family:sans-serif;
+        }
+.box{
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        background: #fff;
+        width: 300px;
+        height: 450px;
+        border-radius: 20px 20px 0 0;
+        animation: slide 0.5s;
+
+}
+.valor,.NIF,.taxa{
+        padding:20px;
+        background: #555;
+        color:#fff;
+        text-align: center;
+        outline: none;
+        border:2px solid;
+        border-radius:20px;
+}
+@keyframes slide{
+        0%{
+                left: 100px;
+        }
+}
+h4 {
+        text-align: center;
+        padding: 25px;
+        background: red;
+        width: 250px;
+        margin-top: 0;
+        height: 50px;
+        border-radius: 20px 20px 0 0;
+}
+.btn{
+        width: 150px;
+        padding:9px;
+        background: #999;
+        border:2px solid black;
+        border-radius:24px;
+        cursor:pointer;
+        color:white;
+        text-decoration: none;
+}
+.btn:hover{
+        background: #0B705C;
+        border:2px solid #0B705C;
+}
